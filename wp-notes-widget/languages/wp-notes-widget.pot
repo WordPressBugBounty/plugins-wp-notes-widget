@@ -1,0 +1,684 @@
+# Copyright (C) 2017 WP Notes Widget
+# This file is distributed under the same license as the WP Notes Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Notes Widget\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/admin-post-twitter-no-credentials-view.php:1
+msgid "If you would like to automatically post your Notes to your Twitter account, please go to the <a href=\"/wp-admin/options-general.php?page=wp-notes-widget-settings\">settings page</a> and follow the instructions."
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:2
+msgid "Tweet History and Settings"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:8
+msgid "Too long. Tweet won't be sent."
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:13
+msgid "Send Tweet on Publish or Update?"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:17
+msgid "WP Notes Widget has not tweeted this note yet."
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:20
+msgid "WP Notes Widget has tweeted this note on:"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:32
+msgid "Tweet Content"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:34
+msgid "Copy Content From Notes Text"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:35
+msgid "Characters Remaining:"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:37
+msgid "Here is a tweet with a link to *url*. Also, check out this cool video *video*"
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:39
+msgid "Enter *url* in tweet body to attach the action or download link."
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:40
+msgid "Enter *video* in tweet body to attach the video link."
+msgstr ""
+
+#: admin/admin-post-twitter-view.php:41
+msgid "If an image is attached to the note, it will automatically be included in your Tweet."
+msgstr ""
+
+#: admin/admin-post-view.php:4, admin/admin-post-view.php:7
+msgid "Notes Text"
+msgstr ""
+
+#: admin/admin-post-view.php:8
+msgid "Enter your note here."
+msgstr ""
+
+#: admin/admin-post-view.php:12
+msgid "Add Media"
+msgstr ""
+
+#: admin/admin-post-view.php:12, admin/admin-post-view.php:113, admin/admin-widget-view.php:8
+msgid "optional"
+msgstr ""
+
+#: admin/admin-post-view.php:20
+msgid "Image"
+msgstr ""
+
+#: admin/admin-post-view.php:25
+msgid "Video"
+msgstr ""
+
+#: admin/admin-post-view.php:30
+msgid "Audio"
+msgstr ""
+
+#: admin/admin-post-view.php:40, admin/class-wp-notes-admin.php:679
+msgid "Add Image"
+msgstr ""
+
+#: admin/admin-post-view.php:41
+msgid "Remove Image"
+msgstr ""
+
+#: admin/admin-post-view.php:52
+msgid "No Image Set"
+msgstr ""
+
+#: admin/admin-post-view.php:67
+msgid "Enter a video page link from Youtube or Vimeo"
+msgstr ""
+
+#: admin/admin-post-view.php:68
+msgid "WP Notes Widget will automatically convert it to the embedded format."
+msgstr ""
+
+#: admin/admin-post-view.php:79
+msgid "Add Audio File"
+msgstr ""
+
+#: admin/admin-post-view.php:80
+msgid "Remove Audio File"
+msgstr ""
+
+#: admin/admin-post-view.php:87
+msgid "Your browser does not support HTML5 audio."
+msgstr ""
+
+#: admin/admin-post-view.php:92
+msgid "No Audio File Set"
+msgstr ""
+
+#: admin/admin-post-view.php:113
+msgid "Include a Link"
+msgstr ""
+
+#: admin/admin-post-view.php:117
+msgid "Action Text"
+msgstr ""
+
+#: admin/admin-post-view.php:118
+msgid "Action Link Text"
+msgstr ""
+
+#: admin/admin-post-view.php:122
+msgid "Action Link"
+msgstr ""
+
+#: admin/admin-post-view.php:127
+msgid "Regular Link"
+msgstr ""
+
+#: admin/admin-post-view.php:132
+msgid "Download Link"
+msgstr ""
+
+#: admin/admin-post-view.php:142
+msgid "Open this link in a new tab"
+msgstr ""
+
+#: admin/admin-post-view.php:146, admin/class-wp-notes-admin.php:681
+msgid "Add Download"
+msgstr ""
+
+#: admin/admin-settings-page-promo-sidebar.php:9
+msgid "WP Notes Widget Settings"
+msgstr ""
+
+#: admin/admin-settings-page-promo-sidebar.php:19
+msgid "General"
+msgstr ""
+
+#: admin/admin-settings-page-promo-sidebar.php:20
+msgid "Shortcode"
+msgstr ""
+
+#: admin/admin-settings-page-promo-sidebar.php:21
+msgid "Twitter"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:12
+msgid "Default settings for the widget and shortcode."
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:29
+msgid "Default shortcode specific settings."
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:54
+msgid ""
+"Enter the credentials from the Twitter application you have set up. You can set up a new application on the \n"
+"        <a href=\"https://apps.twitter.com\" target=\"_blank\" >Twitter Application Management</a> \n"
+"        page. You will need these credentials in order to automatically post your notes to your Twitter account. \n"
+"        Be sure to allow for read <strong>and write</strong> privileges. \n"
+"        "
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:82
+msgid "API Key"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:106
+msgid "API Secret"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:130
+msgid "Access Token"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:154
+msgid "Token Secret"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:165
+msgid "Twitter API Credentials"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:174
+msgid "API Key for your Twitter application"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:182
+msgid "API Secret for your Twitter application"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:190
+msgid "Access Token for your Twitter application"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:198
+msgid "Token Secret for your Twitter application"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:233, admin/admin-widget-view.php:13
+msgid "Thumb Tack Color"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:235, admin/admin-settings-page-setup.php:293, admin/admin-widget-view.php:16, admin/admin-widget-view.php:46
+msgid "Red"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:236, admin/admin-settings-page-setup.php:265, admin/admin-settings-page-setup.php:294, admin/admin-widget-view.php:17, admin/admin-widget-view.php:32, admin/admin-widget-view.php:47
+msgid "Blue"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:237, admin/admin-settings-page-setup.php:266, admin/admin-widget-view.php:18, admin/admin-widget-view.php:33
+msgid "Green"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:238, admin/admin-widget-view.php:19
+msgid "Gray"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:239, admin/admin-settings-page-setup.php:268, admin/admin-widget-view.php:20, admin/admin-widget-view.php:35
+msgid "Orange"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:240, admin/admin-settings-page-setup.php:267, admin/admin-settings-page-setup.php:296, admin/admin-widget-view.php:21, admin/admin-widget-view.php:34, admin/admin-widget-view.php:49
+msgid "Pink"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:241, admin/admin-widget-view.php:22
+msgid "Teal"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:242, admin/admin-settings-page-setup.php:264, admin/admin-widget-view.php:23, admin/admin-widget-view.php:31
+msgid "Yellow"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:262, admin/admin-widget-view.php:28
+msgid "Background Color"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:269, admin/admin-settings-page-setup.php:297, admin/admin-widget-view.php:36, admin/admin-widget-view.php:50
+msgid "White"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:270, admin/admin-settings-page-setup.php:298, admin/admin-widget-view.php:37, admin/admin-widget-view.php:51
+msgid "Dark Grey"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:271, admin/admin-settings-page-setup.php:299, admin/admin-widget-view.php:38, admin/admin-widget-view.php:52
+msgid "Light Grey"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:291, admin/admin-widget-view.php:43
+msgid "Text Color"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:295, admin/admin-widget-view.php:48
+msgid "Black"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:320, admin/admin-widget-view.php:57
+msgid "Font Size"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:322, admin/admin-widget-view.php:60
+msgid "50% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:323, admin/admin-widget-view.php:61
+msgid "45% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:324, admin/admin-widget-view.php:62
+msgid "40% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:325, admin/admin-widget-view.php:63
+msgid "35% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:326, admin/admin-widget-view.php:64
+msgid "30% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:327, admin/admin-widget-view.php:65
+msgid "25% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:328, admin/admin-widget-view.php:66
+msgid "20% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:329, admin/admin-widget-view.php:67
+msgid "15% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:330, admin/admin-widget-view.php:68
+msgid "10% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:331, admin/admin-widget-view.php:69
+msgid "5% smaller"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:333, admin/admin-widget-view.php:71
+msgid "Normal"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:335, admin/admin-widget-view.php:73
+msgid "5% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:336, admin/admin-widget-view.php:74
+msgid "10% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:337, admin/admin-widget-view.php:75
+msgid "15% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:338, admin/admin-widget-view.php:76
+msgid "20% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:339, admin/admin-widget-view.php:77
+msgid "25% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:340, admin/admin-widget-view.php:78
+msgid "30% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:341, admin/admin-widget-view.php:79
+msgid "35% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:342, admin/admin-widget-view.php:80
+msgid "40% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:343, admin/admin-widget-view.php:81
+msgid "45% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:344, admin/admin-widget-view.php:82
+msgid "50% larger"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:367
+msgid "Display Date"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:389
+msgid "Use Custom CSS"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:410
+msgid "Hide if Empty"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:432
+msgid "Use Individual Notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:453
+msgid "Enable Social Sharing"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:474
+msgid "Do not Force Uppercase Letters"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:522, admin/admin-widget-view.php:206, admin/admin-widget-view.php:236
+msgid "Font Style"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:539
+msgid "Default Settings"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:547
+msgid "Thumb tack color for notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:555
+msgid "Background color for notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:563
+msgid "Text color for notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:571
+msgid "Font size for notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:579
+msgid "Display the publish date of the note"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:587
+msgid "Do not include the built in CSS for the notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:595
+msgid "If there are no notes to display, hide the note container"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:603
+msgid "Instead of one tall note, show multiple individual notes"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:611
+msgid "Display a Twitter link below each note"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:619
+msgid "Do not convert all the text to uppercase letters"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:626
+msgid "Font style for the note"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:664
+msgid "Max Width"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:687
+msgid "Max Width Units"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:715
+msgid "Alignment"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:717
+msgid "Left"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:718
+msgid "Center"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:719
+msgid "Right"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:740
+msgid "Direction"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:742
+msgid "Vertical"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:743
+msgid "Horizontal"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:751
+msgid "Default Shortcode Settings"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:758
+msgid "Max width of the note container"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:766
+msgid "CSS units of the max width note container"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:773
+msgid "Alignment of the note container"
+msgstr ""
+
+#: admin/admin-settings-page-setup.php:780
+msgid "Direction flow of the notes"
+msgstr ""
+
+#: admin/admin-widget-view.php:5
+msgid "Visual Settings"
+msgstr ""
+
+#: admin/admin-widget-view.php:8
+msgid "Title"
+msgstr ""
+
+#: admin/admin-widget-view.php:90
+msgid "Show/Hide Notes"
+msgstr ""
+
+#: admin/admin-widget-view.php:93
+msgid "Edit Notes"
+msgstr ""
+
+#: admin/admin-widget-view.php:101
+msgid "Show all published notes."
+msgstr ""
+
+#: admin/admin-widget-view.php:105
+msgid "Hide the following notes:"
+msgstr ""
+
+#: admin/admin-widget-view.php:109
+msgid "Only show the following notes:"
+msgstr ""
+
+#: admin/admin-widget-view.php:113
+msgid "Show notes from category:"
+msgstr ""
+
+#: admin/admin-widget-view.php:145
+msgid "No published notes to display."
+msgstr ""
+
+#: admin/admin-widget-view.php:155
+msgid "Categories available in %1$s."
+msgstr ""
+
+#: admin/admin-widget-view.php:159
+msgid "General Settings"
+msgstr ""
+
+#: admin/admin-widget-view.php:163
+msgid "Display date when note was published"
+msgstr ""
+
+#: admin/admin-widget-view.php:169
+msgid "I will use my own CSS styles for WP Notes Widget"
+msgstr ""
+
+#: admin/admin-widget-view.php:175
+msgid "Use my theme's widget wrapper for WP Notes Widget"
+msgstr ""
+
+#: admin/admin-widget-view.php:181
+msgid "Hide WP Notes Widget if there are no published notes available"
+msgstr ""
+
+#: admin/admin-widget-view.php:187
+msgid "Use individual \"sticky notes\" for each note"
+msgstr ""
+
+#: admin/admin-widget-view.php:193
+msgid "Enable social sharing of notes"
+msgstr ""
+
+#: admin/admin-widget-view.php:198
+msgid "Do not force uppercase letters"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:64
+msgctxt "post type general name"
+msgid "Notes"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:65
+msgctxt "post type singular name"
+msgid "Note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:66
+msgctxt "admin menu"
+msgid "Notes"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:67
+msgctxt "add new on admin bar"
+msgid "Note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:68
+msgctxt "nw-item"
+msgid "Add New"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:69
+msgid "Add New Note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:70
+msgid "New Note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:71
+msgid "Edit Note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:72
+msgid "View Note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:73
+msgid "All Notes"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:74
+msgid "Search Notes"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:75
+msgid "Parent Notes:"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:76
+msgid "No notes found."
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:77
+msgid "No notes found in Trash."
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:163
+msgid "Note Content"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:172
+msgid "Auto Twitter Post"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:495
+msgid "Tweet successfully posted."
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:503
+msgid "There was an error posting your Tweet. Check your configuration and ensure your Tweet is not a recent duplicate, and does not exceed 140 characters."
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:511
+msgid "Twitter is currently experiencing technical difficulties and your Tweet cannot be sent right now. Please try again later."
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:676
+msgid "Choose an audio file for the note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:677
+msgid "Add Audio"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:678
+msgid "Choose an image for the note"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:680
+msgid "Choose an file to attach as a download"
+msgstr ""
+
+#: admin/class-wp-notes-admin.php:727
+msgid "Add WP Notes"
+msgstr ""
